@@ -11,7 +11,7 @@ describe('Verify the login functionality',function(){
     })
 
     
-    it.skip('Verify the login functionalty with invalid credentials',function(){
+    it('Verify the login functionalty with invalid credentials',function(){
         cy.visit('https://www.saucedemo.com/')
         cy.get('input[id="user-name"]').type('standard_user23')
         cy.get('input[id="password"]').type('secret_sauce25')
